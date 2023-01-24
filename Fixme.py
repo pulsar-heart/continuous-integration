@@ -44,4 +44,10 @@ def triangular(n):
     820
     >>> triangular(400)
     80200
-    '''
+'''
+    if n == 1:
+        return 1
+    else:
+        return n + triangular(n - 1)
+
+
