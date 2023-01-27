@@ -49,5 +49,3 @@ def triangular(n):
         return 1
     else:
         return n + triangular(n - 1)
-
-
